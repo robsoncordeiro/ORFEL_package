@@ -18,14 +18,14 @@ Jose F Rodrigues Jr, University of São Paulo
 Robson Cordeiro, University of São Paulo
 
 ## Download
-Please, download the java source with sample data at folder "ORFEL". We also provide our synthetic graph generator and our lockstepper respectively in folders "synthGen" and "Lockstepper" - used to add artificial attacks to the datasets.
+Please, download the java source with sample data at folder "ORFEL". We also provide our synthetic graph generator and our lockstepper respectively at folders "synthGen" and "Lockstepper" - used to add artificial attacks to the datasets.
 
 <h2>Instructions</h2>
 	<ul id="instructions">
 	<li><p>To run ORFEL you will need the <a href="https://github.com/GraphChi/graphchi-java">GraphChi library</a>.</p></li>
 	<li><p>We also use the <a href="http://labs.carrotsearch.com/hppc.html">HPPC library</a>.</p></li>
 	<li><p>The program receives 2 parameters: the input graph (as an edge list text file) and the number of shards to be created - please refer to the GraphChi documentation.</p></li>
-	<li><p>In the zip file, we include a synthetic graph with its groundtruth for initial tests.</p></li>
+	<li><p>We include a synthetic graph with its groundtruth for initial tests.</p></li>
 	<li><p>We also include both the weighted and the unweighted versions of the algorithm, so make sure you are using the right one, with the appropriate sample file.</p></li>
 	<li><p>Finally, in some of our experiments we used <a href="http://snap.stanford.edu/data/web-FineFoods.html">Amazon.FineFoods</a> and <a href="http://snap.stanford.edu/data/web-Movies.html">Amazon.Movies</a> datasets from <a href="http://snap.stanford.edu/data/web-FineFoods.html">SNAP</a> webpage.
 	<li><p>If you have questions or suggestions you can send us an email: <b>ggimenes@icmc.usp.br</b></p></li>
